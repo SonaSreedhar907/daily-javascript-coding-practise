@@ -1,12 +1,12 @@
 //given number is prime or not
 
-function prime(number){
-  for(i=2;i<=number/2;i++){
-    if(number%i===0){
-        return false
-    }else{
-        return true
-    }
-  }
+function prime(num){
+   for(i=2;i<=num/2;i++){
+     if(num%i === 0){
+      return true
+     }else{
+      return false
+     }
+   }
 }
 console.log(prime(7))

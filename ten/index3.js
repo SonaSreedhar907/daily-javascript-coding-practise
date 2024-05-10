@@ -6,13 +6,27 @@
 
 
 var commonfactors = function(a,b){
-   let count=0
-   const c=Math.min(a,b)
-   for(let i=1;i<=c;i++){
-      if(a%i==0 && b%i==0){
-         count++
+     const c = Math.min(a,b)
+     let count = 0
+     for(i=1;i<=c;i++){
+      if(a % i ===0 && b % i ===0){
+         count ++
       }
-   }
-   return count
+     }
+     return count
 }
-console.log(commonfactors(12,6))
+const a =12
+const b =6
+console.log(commonfactors(a,b))
+
+// var commonfactors = function(a,b){
+//    let count=0
+//    const c=Math.min(a,b)
+//    for(let i=1;i<=c;i++){
+//       if(a%i==0 && b%i==0){
+//          count++
+//       }
+//    }
+//    return count
+// }
+// console.log(commonfactors(12,6))

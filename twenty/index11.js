@@ -1,10 +1,10 @@
 //remove duplicate elements in an array
 
 var duplicates = function(a){
-  const b=[]
-  for(let i=0;i<a.length;i++){
+  const b = [] 
+  for(i=0;i<a.length;i++){
     if(b.indexOf(a[i])===-1){
-        b.push(a[i])
+      b.push(a[i])
     }
   }
   return b

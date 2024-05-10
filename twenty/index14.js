@@ -9,5 +9,5 @@ function anagram(a,b){
   return false
 }
 const a='listen'
-const b='silent'
-anagram(a,b)
+const b = 'silent'
+console.log(anagram(a,b))

@@ -15,11 +15,23 @@
 // console.log(palindrome(121))
 
 
-var palindrome=function (a){
- const b=a.split('').reverse().join('')
- if(a==b){
-    return true
- }
- return false
+// var palindrome=function (a){
+//  const b=a.split('').reverse().join('')
+//  if(a==b){
+//     return true
+//  }
+//  return false
+// }
+// console.log(palindrome('racecars'))
+
+
+
+var palindrome = function(a){
+   const b = a.split('').reverse().join('')
+   if(a === b){
+      return true
+   }
+   return false
+
 }
-console.log(palindrome('racecars'))
+console.log(palindrome('sona'))
