@@ -1,3 +1,7 @@
+//s = 'abcde'
+//goal = 'cdeab'
+//ouput = true
+
 
 
 var rotateString = function(s,goal){
